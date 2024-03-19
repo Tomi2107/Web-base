@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: pink;
+    display:flex;
+    justify-content:flex-start 
+}
+#img2{
+    margin:0;
+    padding:0;
+    display:flex;
+}
