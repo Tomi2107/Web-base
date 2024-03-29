@@ -9,3 +9,7 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Tomi2107/empty.git
 git push -u origin main
+
+----
+Renombrar el origin
+git remote rm origin
