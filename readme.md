@@ -13,3 +13,12 @@ git push -u origin main
 ----
 Renombrar el origin
 git remote rm origin
+
+borrar rama
+git branch -d main2
+
+git tag
+muestras las tag en stage
+
+borrar las inecesarias
+$ git tag -d v1.1 v1.2 v2.0 v2.1
