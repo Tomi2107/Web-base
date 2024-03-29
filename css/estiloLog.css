@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding:0;  
+    border:5px solid black;
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 7vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav li{
+    display: inline-block;
+    list-style: none;
+}
+.nav li a{
+    margin:30px;
+    padding: 20px;
+    text-decoration: none;  
+    color: darkorange; 
+}
+.nav li a:hover{
+    transition:3s;
+    color: rgb(48, 70, 133);
+}
+
+main{
+    height: 76vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer{
+    display: flex;
+    justify-content:space-around;
+    height: 16vh;
+    width: 100%;
+}
+.footer div{
+    display: inline-block;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+.footer div div .col1 li{
+    margin:10px 5px;
+    list-style: none;
+}
+.footer div div .col1 li a{
+    text-decoration: none;
+}
+.footer div div .col2 li{
+    margin:10px 5px;
+    list-style: none;
+}
+.footer div div .col2 li a{
+    text-decoration: none;
+}
+.footer div div .col3 li{
+    margin:10px 5px;
+    list-style: none;
+}
+.footer div div .col3 li a{
+    text-decoration: none;
+}
+.footer div div .col4 li{
+    margin:10px 5px;
+    list-style: none;
+}
+.footer div div .col4 li a{
+    text-decoration: none;
+}
+.form{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    border:1px solid lightblue;
+
+}
+input{
+    margin: 0;
+    padding: 10px;
+    border:1px solid lightblue;
+    border-radius: 10px;
+}   
+#mail{
+    display:flex;
+    justify-content: stretch;
+    margin-bottom: 3px;
+}
+#pass{
+    display:flex;
+    justify-content: stretch;
+    margin-bottom: 3px;
+}
+button{
+    display:flex;
+    justify-content: stretch;
+    margin-bottom: 10px;
+    background-color: dimgray;
+    border-radius: 10px;
+}
+button:hover{
+    transition: 0.3s;
+    background-color: burlywood;    
+}
+.name{
+    display:flex;
+    justify-content: stretch;
+    margin-bottom: 3px;
+}
+.mail{
+    display:flex;
+    justify-content: stretch;
+    margin-bottom: 3px;
+}
+.apellido{
+    display:flex;
+    justify-content: stretch;
+    margin-bottom: 3px;
+}
+.date{
+    display:flex;
+    justify-content: stretch;
+    margin-bottom: 3px;
+}
+.pass{
+    display:flex;
+    justify-content: stretch;
+    margin-bottom: 3px;
+}
+.main{
+    display:block;
+    justify-content: center;
+    align-items: center;
+}
+.main p{
+    display:block;
+    justify-content: center;
+    text-align: center;
+}
+.main h1{
+    display:block;
+    justify-content: center;
+    text-align: center;
+}
+
+   /* Tamaño tablet y compu */   
+@media(min-width: 501px){
+main .movie{
+    width: 35%;
+}}   
+@media(min-width: 801px){
+main .movie{
+    width: 20%;
+}}    
+@media(min-width: 1201px){
+main .movie{
+    width: 10%;
+}}
